@@ -17,7 +17,7 @@
 ^stat(s|istics)?[0-9]*[_.-]
 
 
-# TDL blocking for less common sites
+# Blocking for less common TLDs
 # From https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/
 
 ^.+\.(accountant|biz|bid|christmas|click|country|cricket|date|download)$
@@ -33,3 +33,8 @@
 
 ^log.*tiktokv.com
 ^log.*musical.ly
+
+
+# Other
+
+(\.|^)tuyaeu\.com$
